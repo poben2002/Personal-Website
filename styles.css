@@ -128,7 +128,7 @@ footer{
     opacity: 0.8;
 }
 
-#projects, #experience, #organizations {
+#projects, #experience, #organizations, #course {
     align-items: center;
     font-size: 25px;
     background: url('images/work.jpg') no-repeat center center/cover;
@@ -138,7 +138,7 @@ footer{
     padding: 20px;
 }
 
-#proj, #exp, #org {
+#proj, #exp, #org, #cor{
     margin-left: 100px;
     align-items: center;
 }
