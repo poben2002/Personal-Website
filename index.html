@@ -31,37 +31,35 @@
             <div id="intro"></div>
                 <h3> Education </h3>
                 <ul>
-                    <li> <h3>Sophomore Majoring in Informatics at the University of Washington - Seattle </h3></li>
-                    <li> <h5> Expected Graduation: June 2024 </h5></li>
+                    <li> <h3>Junior Majoring in Informatics at the University of Washington - Seattle </h3></li>
+                    <li> <h5> Expected Graduation: December 2024 </h5></li>
                 </ul>
                 <br>
                 <h3> Languages </h3>
                 <ul>
                     <li> Java </li>
-                    <li> Javascript (including Node Js/React) </li>
-                    <li> HTML and CSS </li>
-                    <li> SQL and no SQL </li>
+                    <li> Javascript (NodeJS, ReactJS, jQuery) </li>
+                    <li> HTML/CSS </li>
+                    <li> SQL (MySQL, Microsoft SQL Server) </li>
                     <li> R </li>
+                    <li> Python (Pandas, NumPy, sckit-learn, Matlib) </li>
+                    <li> C, C++ </li>
                 </ul>
                 <br>
                 <h3> Technical Skills </h3>
                 <ul>
-                    <li> Experience building and maintaing APIs </li>
-                    <br>
-                    <li> Knowledge of data structures, algorithims, and asymptotic analysis </li>
-                    <br>
-                    <li> Familiar with all aspects of software development activities, including
-                        design, coding, code review, testing, deubgging, and code/API documentation</li>
+                    <li> Full stack development (Client and Serverside) </li>
+                        <br>
+                    <li> Data structures, algorithims, and asymptotic analysis </li>
+                        <br>
+                    <li> Familiar with all aspects of software development lifecycle, including
+                        design, coding, code review, testing, debugging, and code/API documentation</li>
                         <br>
                     <li> Database maintenance and configuration management. Taken relevant coursework regarding both relational
-                        databases and noSQL as well as transactional management of databases </li>
+                        databases and No SQL as well as transactional management of databases </li>
                         <br>
-                        <li> Able to collaborate with engineers and participate in daily or weekly stand ups and meetings.</li>
+                    <li> ML Training, Validation and Testing skills for various ML models in Python and associated libraries </li>
                         <br>
-                    <li> Comfortable working both independently and collaboratively within a fast-paced development team, with clear, positive,
-                        and constructive communication. </li>
-                        <br>
-                    <li> Strong competency in java, javascript and associated frameworks as well as working knowledge of HTML and web technologies </li>
                 </ul>
                 <br>
                     <button id="resume">Resume</button>
@@ -81,6 +79,9 @@
                 <li> <h4>   Databases and Data Modeling </h4></li>
                 <li> <h4>   Data Structures and Algorithms </h4></li>
                 <li> <h4>   Information Ethics and Policy </h4></li>
+                <li> <h4>   Core Concepts of Machine Learning </h4></li>
+                <li> <h4>   Client Side Development </h4></li>
+                <li> <h4>   Core Methods of Data Science </h4></li>
             </ul>
         </div>
     </section>
@@ -91,20 +92,35 @@
         <h1 class="headings">PROJECTS</h1>
         <div id="proj">
             <ul>
-                <li> <h3> Pokedex Simulator </h3></li>
-                <li><p> Web browser Pokemonn battler game utilizing PokeAPI and built using HTML/CSS, Javascript and NodeJS. Creates a virtual
-                    PokeDex (Index of Pokemon a player has encountered which entails stats, abilities and descriptions about the Pokemon) and
-                    a battler portion of the game where players can use encountered Pokemon to battle a CPU. Focuses on using AJAX fetch requests
-                    to fetch data in text and JSON formats and process it using DOM manipulation.
+                <li> <h3> SongShare (Team Leader) (Sept. 2022 - Jun. 2023) </h3></li>
+                <li> <p> Full Stack music sharing website built using React, Bootstrap and Firebase used to recommend songs based on song
+                    characteristics (genre, danceability, popularity), generate random or targeted playlists based on liked songs, share favorite
+                    songs to friends and recommend new artists based on user preferences.
                 </p></li>
                 <br>
-
-                <li> <h3> UW Dubvelopers/DISHA </h3></li>
+                <li> <h3> UW Dubvelopers/DISHA (Sept 2021 - June 2022) </h3></li>
                 <li><p> Website built using ReactJS and Firebase database helping homeless patients locate temporary housing near hospitals and
                      medical treatment centers. Utilizes Google Places API.
                 </p></li>
                 <br>
-                <li> <h3> Evil Hangman </h3></li>
+                <li> <h3> NBA Awards Predictor (May. 2022 - Oct. 2023) </h3></li>
+                <li> <p> Machine Learning model built on Python that uses sklearn’s Linear Regression trained on a dataset of NBA statistics over the past 60 seasons
+                    web scraped from Basketball Reference in order predict a player’s likelihood of winning a regular season award.Read and cleaned data using Pandas
+                    and Beautiful Soup, defined error metric for MVP and DPOY awards, and implemented a Random Forest model for comparison.
+                </p></li>
+                <br>
+                <li> <h3> Seam Finder (Jan. 2023 - Mar. 2023) </h3></li>
+                <li> <p> Java program utilizing implementations of Priority Queues, Graphs, Dynamic Programming, and Djikstra’s algorithm to resize images without
+                     losing content of image.Experimented using heaps, different sorting/shortest path algorithms and performed asymptotic analysis on methods
+                     to find optimal runtime.
+                </p></li>
+                <br>
+                <li> <h3> Wordle and Sudoku Clone (Sept. 2023 - Oct. 2023) </h3></li>
+                <li> <p> Wordle game and Sudoku clone built using HTML/CSS and Javascript hosted on NodeJS. Wordle game has infinite replayability by selecting a
+                    random word from a five letter word dictionary. Also has a Sudoku clone game with a built in Sudoku solver algorithim to play against.
+                </p></li>
+                <br>
+                <li> <h3> Evil Hangman (Sept 2021 - Nov 2021) </h3></li>
                 <li> <p> Spinoff of popular hangman game where players guess one character at a time until either they are able to guess the target word or
                     phrase or they run out of the alotted guesses. This variation of the game features a twist. The HangmanManager class does not initially
                     select a target word at the start of the game, and instead continually changes the set of possible target words based on the characters
@@ -112,18 +128,20 @@
                     for the user to win.
                 </p></li>
                 <br>
-                <li> <h3> SongShare </h3></li>
-                <li> <p> Website built using ReactJS and Azure SQL database used to track a Spotify account’s statistics and post one song suggestion onto a
-                     blog type website everyday. Features relational databases and transactional management. Team Leader of the project
+                <li> <h3> Pokedex Simulator (June 2022 - Oct 2022) </h3></li>
+                <li><p> Web browser Pokemonn battler game utilizing PokeAPI and built using HTML/CSS, Javascript and NodeJS. Creates a virtual
+                    PokeDex (Index of Pokemon a player has encountered which entails stats, abilities and descriptions about the Pokemon) and
+                    a battler portion of the game where players can use encountered Pokemon to battle a CPU. Focuses on using AJAX fetch requests
+                    to fetch data in text and JSON formats and process it using DOM manipulation.
                 </p></li>
                 <br>
-                <li> <h3> Huffman Coding </h3></li>
+                <li> <h3> Huffman Coding (Nov 2021 - Dec 2021) </h3></li>
                 <li> <p> Java algorithm using binary trees, recursion and priority queues to compress and decompress messages and data. Features use of ASCII
                     and binary representation. Focuses on using different sorting algorithims, maximizing runtime efficiency and dynamic programming.
                 </p></li>
                 <br>
-                <li> <h3> Yipper </h3></li>
-                <li> <p> Twitter clone/Blog where users can upload short text messages and images. Uses relational SQL database to store messages and information about messages 
+                <li> <h3> Yipper (Aug 2022 - Dec 2022) </h3></li>
+                <li> <p> Twitter clone/Blog where users can upload short text messages and images. Uses relational SQL database to store messages and information about messages
                     and users. Uses NodeJS, HTML/CSS and Javascript.
                 </p></li>
 
